@@ -1,0 +1,62 @@
+.articlelist{
+    flex: 4;
+    margin-bottom: 85px;
+    margin-left: 10px;
+}
+.articleListArticle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .articleListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+.articleListSetting{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.articleListDelete{
+  padding: 20px;
+  cursor: pointer;
+}
+.articleAddButton {
+  width: 70px;
+  border: none;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 999px;
+  margin-block-end: -40px;
+
+
+}
+.articleTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nouv{
+   margin-top: 20px;
+}
+
+.article {
+  flex: 4;
+  padding: 20px;
+}
+.articleTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

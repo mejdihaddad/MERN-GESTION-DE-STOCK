@@ -1,0 +1,166 @@
+.utilisateur{
+    flex: 4;
+    padding: 20px;
+}
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .userAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  .userContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  .userShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .userUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.userShowNom {
+  font-weight: 600;
+}
+.userShowPrenom {
+  font-weight: 600;
+}
+.userShowBottom{
+  margin-top: 20px;
+}
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.userShowInfo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.userShowIcon{
+  font-size: 16px !important;
+}
+.showUserInfoTitle{
+  margin-left: 10px;
+}
+
+.userUpdateTitle{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userUpdateForm{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userUpdateItem{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdateItem>label{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateInput{
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.userUpdateRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload{
+  display: flex;
+  align-items: center;
+}
+
+.userUpdateImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 60px;
+  margin-top: 50px;
+  
+}
+
+.userUpdateIcon{
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.userUpdateButton {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.userUpdateButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.userUpdateButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}

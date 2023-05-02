@@ -1,0 +1,167 @@
+.employe{
+    flex: 4;
+    padding: 20px;
+}
+.employeTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .employeAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  .employeContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  .employeShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .employeUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+.employeShowTop {
+  display: flex;
+  align-items: center;
+}
+.employeShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.employeShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.employeShowNom {
+  font-weight: 600;
+}
+.employeShowService {
+  font-weight: 600;
+}
+.employeShowBottom{
+  margin-top: 20px;
+}
+.employeShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.employeShowInfo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.employeShowIcon{
+  font-size: 16px !important;
+}
+.showEmployeInfoTitle{
+  margin-left: 10px;
+}
+
+.employeUpdateTitle{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.employeUpdateForm{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.employeUpdateItem{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.employeUpdateItem>label{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.employeUpdateInput{
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.employeUpdateRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-top: 150px;
+}
+
+.employeUpdateUpload{
+  display: flex;
+  align-items: center;
+}
+
+.employeUpdateImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 60px;
+  margin-top: 50px;
+  
+}
+
+.employeUpdateIcon{
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.employeUpdateButton {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.employeUpdateButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.employeUpdateButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}

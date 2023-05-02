@@ -1,0 +1,54 @@
+.nouvelFournisseur {
+    flex: 4;
+    margin-left: 10px;
+  }
+  .nouvelFournisseurForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.nouvelFournisseurItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .nouvelFournisseurItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  .nouvelFournisseurItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .nouvelFournisseurSexe > input {
+    margin-top: 15px;
+    margin-left: 70px;
+  }
+  .nouvelFournisseurSexe>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.NouvelFournisseurButton{
+  width: 90px;
+  height: 50px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.newFournisseurSelect{
+    height: 40px;
+    border-radius: 5px;
+  }
+  

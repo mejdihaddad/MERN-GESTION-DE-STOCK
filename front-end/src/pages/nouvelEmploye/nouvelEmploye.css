@@ -1,0 +1,50 @@
+.nouvelEmploye {
+    flex: 4;
+    margin-left: 10px;
+
+  }
+  .nouvelEmployeForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nouvelEmployeItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .nouvelEmployeItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  .nouvelEmployeItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .nouvelEmployeSexe > input {
+    margin-top: 15px;
+    margin-left: 70px;
+  }
+  .nouvelEmployeSexe>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.NouvelEmployeButton{
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-left: 620px;
+}
+  

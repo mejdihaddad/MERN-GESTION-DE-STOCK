@@ -1,0 +1,13 @@
+
+.container{
+    display: flex;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,169 @@
+.categorie {
+    flex: 4;
+    padding: 20px;
+  }
+  .categorieTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .categorieAddButton {
+    width: 90px;
+    border: none;
+    padding: 5px;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .categorieContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  .categorieShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .categorieUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+.categorieShowTop {
+  display: flex;
+  align-items: center;
+}
+.categorieShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.categorieShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.categorieShowNom {
+  font-weight: 600;
+}
+.categorieShowPrenom {
+  font-weight: 600;
+}
+.categorieShowBottom{
+  margin-top: 20px;
+}
+.categorieShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.categorieShowInfo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.categorieShowIcon{
+  font-size: 16px !important;
+  padding: 10px;
+}
+.showcategorieInfoTitle{
+  margin-left: 10px;
+}
+
+.categorieUpdateTitle{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.categorieUpdateForm{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.categorieUpdateItem{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.categorieUpdateItem>label{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.categorieUpdateInput{
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.categorieUpdateRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categorieUpdateUpload{
+  display: flex;
+  align-items: center;
+}
+
+.categorieUpdateImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 60px;
+  margin-top: 10px;
+  
+}
+
+.categorieUpdateIcon{
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.categorieUpdateButton {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.categorieUpdateButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.categorieUpdateButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.newCategorieSelect{
+  height: 40px;
+  border-radius: 5px;
+}
